@@ -16,6 +16,6 @@ jobs:
 
       - name: Run JS files
         run: |
-          node reverseString.js
-          node reverseNumber.js
-          node reverseNumberwithoutBuiltinMethod.js
+          node JSPractice/reverseString.js
+          node JSPractice/reverseNumber.js
+          node JSPractice/reverseNumberwithoutBuiltinMethod.js
