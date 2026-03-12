@@ -16,6 +16,8 @@ jobs:
 
       - name: Run JS files
         run: |
-          node JSPractice/reverseString.js
-          node JSPractice/reverseNumber.js
-          node JSPractice/reverseNumberwithoutBuiltinMethod.js
+          for file in JSPractice/*.js
+          do
+            echo "Running $file"
+            node $file
+          done
